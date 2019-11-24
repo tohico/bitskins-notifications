@@ -6,7 +6,6 @@ try {
 yourFeeSchedule = 5.00;
 
 timeZoneFormat = "de";
-forceAutohideOnAllNotifications = false;
 stickyItemChangeNotifications = false;
 
 /* ------------------------------------------------------ */
