@@ -1,0 +1,13 @@
+{
+  "name": "Bitskins notifications",
+  "description": "Notifications for wallet, pendings and inventory changes.",
+
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": ["tabs","storage","alarms","notifications"],
+  "content_scripts": [ {
+      "matches": ["*://*.bitskins.com/*"],
+      "js": ["jquery.js", "code.js"]
+    }
+  ]
+}
